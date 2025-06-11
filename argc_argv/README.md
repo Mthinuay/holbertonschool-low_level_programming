@@ -1,4 +1,3 @@
-# argc_argv Directory
+# argc_argv directory
 
-This directory contains projects and exercises related to command-line arguments handling in C programs. 
-You will find implementations that demonstrate usage of argc and argv parameters in main functions.
+This directory contains exercises related to command line arguments handling in C.

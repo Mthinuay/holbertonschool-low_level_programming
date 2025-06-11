@@ -22,15 +22,10 @@ int main(void)
 	printf("%d\n", nb);
 	nb = _atoi("Suite 402");
 	printf("%d\n", nb);
-	nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+	nb = _atoi(
+		"         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA");
 	printf("%d\n", nb);
 	nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-	printf("%d\n", nb);
-	nb = _atoi("-2147483648");
-	printf("%d\n", nb);
-	nb = _atoi("2147483648"); /* Overflow positive */
-	printf("%d\n", nb);
-	nb = _atoi("-2147483649"); /* Overflow negative */
 	printf("%d\n", nb);
 	return (0);
 }

@@ -6,20 +6,20 @@
  */
 void puts_half(char *str)
 {
-    int len = 0, i;
+	int len = 0, i;
 
-    /* Calculate the string length */
-    while (str[len] != '\0')
-        len++;
+	/* Calculate the string length */
+	while (str[len] != '\0')
+		len++;
 
-    /* If odd length, start from (len + 1) / 2 */
-    if (len % 2 == 1)
-        i = (len + 1) / 2;
-    else
-        i = len / 2;
+	/* If odd length, start from (len + 1) / 2 */
+	if (len % 2 == 1)
+		i = (len + 1) / 2;
+	else
+		i = len / 2;
 
-    /* Print from i to end */
-    for (; i < len; i++)
-        _putchar(str[i]);
-    _putchar('\n');
+	/* Print from i to end */
+	for (; i < len; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 }
